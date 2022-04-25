@@ -27,6 +27,14 @@ export default function HomePage({dakotaHandler}) {
         >
           View Resume
         </a>
+        <button 
+        type="button" 
+        className="btn b-about mt-3"
+        onClick={dakotaHandler}
+        style={{color:"#fff", borderColor: "#fff"}}
+        >
+          About Me
+        </button>
       </div>
     </div>
   );
