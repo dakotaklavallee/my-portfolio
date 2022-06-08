@@ -8,9 +8,9 @@ export default function Project({
   tryIt,
 }) {
   return (
-    <div className="card my-2 mx-2" style={{width: "20rem"}}>
+    <div className="card my-2 mx-2" style={{width: "25rem"}}>
       <img src={imgSrc} className="card-img-top" alt="Project Card" />
-      <div className="card-body">
+      <div className="card-body text-center">
         <h5 className="card-title">{projectName}</h5>
         <p className="card-text">{projectDesc}</p>
         <div>

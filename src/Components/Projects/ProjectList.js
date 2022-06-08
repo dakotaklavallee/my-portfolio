@@ -6,6 +6,15 @@ export default function ProjectList() {
     <div className="col">
       <div className="row d-flex justify-content-center">
         <Project
+          imgSrc={"https://i.imgur.com/OPg1XmUm.png"}
+          projectName={"OrderUp"}
+          projectDesc={
+            "Manage your Restaurant's Reservations. Built with React, Express, PostgreSQL, Knex, Node.js, Bootstrap, and CSS3"
+          }
+          gitHub={"https://github.com/dakotaklavallee/Reservation-Application"}
+          tryIt={"https://order-up-client.vercel.app/dashboard"}
+        />
+        <Project
           imgSrc={"https://i.imgur.com/EPfPvhK.png"}
           projectName={"Bon Voyage"}
           projectDesc={
@@ -13,6 +22,17 @@ export default function ProjectList() {
           }
           gitHub={"https://github.com/dakotaklavallee/Bon-Voyage"}
           tryIt={"https://www.bonvoyageapp.com/"}
+        />
+      </div>
+      <div className="row d-flex justify-content-center">
+        <Project
+          imgSrc={"https://i.imgur.com/WhMR9me.png"}
+          projectName={"WeLoveMovies"}
+          projectDesc={
+            "CRUD Movie Reviews Application. Built with React, Express, Knex, PostgreSQL, HTML5, and CSS3"
+          }
+          gitHub={"https://github.com/dakotaklavallee/we-love-movies-backend"}
+          tryIt={"https://we-love-movies-kappa.vercel.app/"}
         />
         <Project
           imgSrc={"https://i.imgur.com/KsVrNRi.png"}

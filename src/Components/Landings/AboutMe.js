@@ -10,7 +10,7 @@ export default function AboutMe() {
         <div className="animate__animated animate__fadeInLeft">
           <h2>About Me</h2>
         </div>
-        <div className="animate__animated animate__fadeInRight">
+        <div className="about-text animate__animated animate__fadeInRight">
           <p className="pr-3 mr-2">
             I'm a full-stack engineer with a passion for the consumer. I believe
             in developing <span style={{ color: "red" }}>USER-FIRST</span>{" "}
