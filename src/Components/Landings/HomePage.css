@@ -12,3 +12,18 @@ h2, h4 {
   font-size: 150%; 
   transition: all 1s;
 }
+
+.nav-btn button{
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.back-btn Link {
+  box-shadow: rgba(255, 0, 0, 0.4) 0px 5px 15px;
+}
+
+.nav-btn a {
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.nav-btn Link{
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}

@@ -73,9 +73,21 @@ export default function AboutMe() {
           <h6 className="ml-3 my-0">(770) 548-4856</h6>
         </div>
       </div>
-      <div className="row d-flex justify-content-center">
-        <Link to="/" className="btn btn-secondary px-3 mb-3 mr-3">Go Home</Link>
-        <Link to="/projects" className="btn btn-danger px-3 mb-3">View Projects</Link>
+      <div className="row nav-btn d-flex justify-content-center">
+        <Link
+          to="/"
+          style={{ backgroundColor: "rgba(33,66,60, 0.2)" }}
+          className="btn btn-secondary px-3 mb-3 mr-3"
+        >
+          Go Home
+        </Link>
+        <Link
+          to="/projects"
+          style={{ backgroundColor: "rgba(255,79,0, 0.2)" }}
+          className="btn btn-danger px-3 mb-3"
+        >
+          View Projects
+        </Link>
       </div>
     </>
   );

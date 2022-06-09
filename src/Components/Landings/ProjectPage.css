@@ -2,3 +2,8 @@
     font-family: "Bebas Neue", cursive;
     font-size: 2.8rem;
 }
+
+.proj-card {
+    box-shadow: rgba(255, 255, 255, 0.45) 0px 5px 15px;
+    border-style: none;
+}

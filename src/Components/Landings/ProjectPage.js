@@ -1,8 +1,8 @@
 import React from "react";
 import ProjectList from "../Projects/ProjectList";
 import { Link } from "react-router-dom";
-import './ProjectPage.css';
-import 'animate.css';
+import "./ProjectPage.css";
+import "animate.css";
 
 export default function ProjectPage() {
   return (
@@ -13,8 +13,14 @@ export default function ProjectPage() {
       <div className="row animate__animated animate__fadeInUp">
         <ProjectList />
       </div>
-      <div className="row d-flex justify-content-center mt-2">
-        <Link to="/" className="btn btn-secondary px-5 mb-3">Go Back</Link>
+      <div className="row d-flex back-btn justify-content-center mt-2">
+        <Link
+          to="/"
+          style={{ backgroundColor: "rgba(33,66,60, 0.2)" }}
+          className="btn btn-secondary px-5 mb-3"
+        >
+          Go Back
+        </Link>
       </div>
     </div>
   );
