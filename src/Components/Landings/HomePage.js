@@ -25,7 +25,7 @@ export default function HomePage({ dakotaHandler }) {
           View Projects
         </Link>
         <a
-          href="https://docs.google.com/document/d/10FB-zrsNmmu8_GKPG8C__hJm_BFB_nZkmAla0GxJdCw/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1NbRaiMbX6pozNBjygUnjaUYFeZ9pJYwbbZdqVNw1lYI/edit"
           rel="noreferrer"
           target="_blank"
           style={{ backgroundColor: "rgba(33,66,60, 0.2)"}}
